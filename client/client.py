@@ -44,10 +44,10 @@ class Agent:
         # "o" rock (wall)
         # "f" tiled floor
         # "p" player
-        #self.data = self.gameserver.make_action(self.login, 'move', 'south')
+        self.data = self.gameserver.make_action(self.login, 'move', 'south')
         self.data = self.gameserver.make_action(self.login, 'move', 'west')
         self.data = self.gameserver.make_action(self.login, 'move', 'north')
-        #self.data = self.gameserver.make_action(self.login, 'move', 'west')
+        self.data = self.gameserver.make_action(self.login, 'move', 'west')
         pass
     
     def __repr__(self):
